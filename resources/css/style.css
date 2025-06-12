@@ -1,0 +1,95 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .download-link {
+            color: limegreen;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 50px;
+        }
+
+        .download-link:hover {
+            text-decoration: underline;
+        }
+
+        .phone-mockup {
+            width: 250px; /* Adjust size as needed */
+            margin: 0 auto;
+            display: block;
+            /* If the image is a full mockup including the phone, just use it.
+               If it's just the waterfall, you'd need a phone frame image.
+               Assuming `excursion-phone-waterfall.jpg` is the image of the phone with waterfall.
+            */
+            max-width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            margin-bottom: 50px;
+            line-height: 1.5;
+            padding: 0 20px; /* Add some padding for smaller screens */
+        }
+
+        .main-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 50px;
+        }
+
+        .mobile-icon {
+            width: 100px; /* Adjust size as needed */
+            height: auto;
+            margin-bottom: 20px;
+            /* This is a placeholder icon. You'd replace it with an actual SVG or image */
+            filter: invert(100%); /* Make it white if it's black */
+        }
+
+        .coming-soon-platforms {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .footer-link {
+            color: limegreen;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-bottom: 20px;
+            font-size: 0.9em;
+            color: #888;
+        }
